@@ -1,0 +1,23 @@
+.video-bg-container {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-bg {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0; left: 0;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(24, 24, 24, 0.7);
+  z-index: 1;
+} 
